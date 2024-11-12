@@ -4,7 +4,7 @@
     background-color: white;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
     padding-right: 5px;
 }
 .nav-title{
@@ -45,19 +45,18 @@
 }
 .visitor-count > p{
     background-color: whitesmoke;
-    padding: 5%;
-    border-radius: 20%;
+    border-radius: 10px;
     font-weight: 700;
     cursor: pointer;
+    transition: padding 0.5s ease;
 }
 .visitor-count > p:hover{
-    background-color: rgb(240, 240, 240);
-    transition: 0.5s;
+    background-color: rgb(231, 231, 231);
 }
 
 #active-link{
-    background-color: rgb(44, 44, 44);
-    color: white;
+    background-color:rgb(231, 231, 231);
+    color: black;
     padding: 1.5% 4%;
     border: none;
     border-radius: 20px;
