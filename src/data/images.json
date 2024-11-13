@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "url": "/Great-Wall-Of-China.jpg",
+        "alt": "Image of Monument 1",
+        "title": "Monument 1",
+        "description": "Explore the beauty of Monument 1"
+    },
+    {
+        "id": 2,
+        "url": "/taj-mahal.jpg",
+        "alt": "Image of Monument 2",
+        "title": "Monument 2",
+        "description": "Discover the grandeur of Monument 2"
+    },
+    {
+        "id": 3,
+        "url": "/machu-picchu.jpg",
+        "alt": "Image of Monument 3",
+        "title": "Monument 3",
+        "description": "Step into the history of Monument 3"
+    },
+    {
+        "id": 4,
+        "url": "/pyramids-of-gaza.jpg",
+        "alt": "Image of Monument 4",
+        "title": "Monument 4",
+        "description": "Unveil the mysteries of Monument 4" 
+    }
+]

@@ -40,7 +40,7 @@ const NavigationBar = () => {
                 <img src={logo} alt="" className="vc-logo"/>
                 <p 
                     onClick={handleVisitorCountClick} 
-                    style={{ padding: isVisitorCountExpanded ? "4% 10%" : "4%", fontSize: isVisitorCountExpanded ? "13px" : "20px" }}
+                    style={{ padding: isVisitorCountExpanded ? "4% 10%" : "4%", fontSize: isVisitorCountExpanded ? "13px" : "16px" }}
                 >
                     {isVisitorCountExpanded ? `Visitors Count: ${visitorCount}` : "VC"}
                 </p>
