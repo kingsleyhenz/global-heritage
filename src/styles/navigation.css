@@ -9,6 +9,7 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    box-shadow: 0px 5px 30px rgb(248, 248, 248);
 }
 .nav-title{
     width: 10%;
@@ -48,18 +49,19 @@
     height: 60%;
 }
 .visitor-count > p{
-    background-color: whitesmoke;
+    background-color: brown;
     border-radius: 10px;
     font-weight: 700;
     cursor: pointer;
     transition: padding 0.3s ease;
+    color: white;
 }
 .visitor-count > p:hover{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(131, 33, 33);
 }
 
 #active-link{
-    background-color:rgb(0, 174, 255);
+    background-color: brown;
     color: white;
     padding: 1.5% 4%;
     border: none;

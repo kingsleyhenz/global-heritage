@@ -31,7 +31,7 @@ const Contact = () => {
                             <i class="bi bi-geo-alt"></i>
                             <div className="contact-card-info">
                                 <h3>Location</h3>
-                                <p>Port-Harcourt</p>
+                                <p>Port-Harcourt, Nigeria</p>
                             </div>
                         </div>
                         <div className="contact-card">

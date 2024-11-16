@@ -7,7 +7,7 @@ const CarouselSlider = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
-        }, 2500);
+        }, 3000);
         return () => clearInterval(interval);
     }, []);
 
@@ -20,6 +20,7 @@ const CarouselSlider = () => {
                     backgroundPosition: "center",
                 }}
             >
+                <p>{carouselData[currentIndex].title}</p>
             </div>
     );
 };
