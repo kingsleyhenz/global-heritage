@@ -20,7 +20,6 @@ const CarouselSlider = () => {
                     backgroundPosition: "center",
                 }}
             >
-                <p>{carouselData[currentIndex].title}</p>
             </div>
     );
 };

@@ -4,14 +4,14 @@
     background-color: rgba(255, 255, 255, 0.336);
     display: flex;
     align-items: center;
-    padding: 0% 3%;
+    padding: 0%;
     gap: 5%;
 }
 .geo-loc{
     width: 55%;
-    height: 90%;
-    /* background-color: red; */
-    border-radius: 15px;
+    height: 100%;
+    background-color: red;
+    /* border-radius: 15px; */
     box-shadow: 5px 5px 20px rgb(235, 235, 235);
 }
 .contact-details{

@@ -11,7 +11,7 @@ const Contact = () => {
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.6189454007385!2d7.027020374089733!3d4.8353127404777325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d1dfb38824ed%3A0xac41bee066e6dbec!2sAptech%20Computer%20Education%20Port%20Harcourt!5e0!3m2!1sen!2sng!4v1731528262720!5m2!1sen!2sng"
                         width="600"
                         height="450"
-                        style={{ border: 0, width: '100%', height: '100%', borderRadius: '15px' }}
+                        style={{ border: 0, width: '100%', height: '100%'}}
                         allowFullScreen
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
