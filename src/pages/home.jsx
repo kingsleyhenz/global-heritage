@@ -1,20 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/home.css"
 import CarouselSlider from "../components/carousel";
-import imageData from "../data/images.json"
+import carouselData from "../data/images.json";
 
 const HomePage = () => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const [isAnimating, setIsAnimating] = useState(false);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setIsAnimating(true);
+            setTimeout(() => {
+                setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
+                setIsAnimating(false);
+            }, 800);
+        }, 5000);
+        return () => clearInterval(interval);
+    }, []);
+
     return (
         <>
             <div className="home-content">
-                <div className="hero-section">
-                    <div className="hero-text">
-                        <h1>Gloabl Heritage: Explore the World's Historic Monuments</h1>
-                        <p>Embark on a journey through time as you explore the architectural marvels and cultural wonders that have shaped civilizations across the globe. From the timeless pyramids of Egypt to the intricate temples of Southeast Asia, each monument tells a unique story of human achievement, artistry, and resilience. Dive deeper into history and discover the significance of these remarkable landmarks that continue to inspire awe and reverence.</p>
-                        <button>Find Out More</button>
-                    </div>
-                    <CarouselSlider />
+            <div
+                className="hero-section"
+                style={{
+                    backgroundImage: `url(${carouselData[currentIndex].url})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+            >
+                <div className={`hero-text ${isAnimating ? "fade-out" : "fade-in"}`}>
+                    <h1>{carouselData[currentIndex]["hero-text"]}</h1>
+                    <p>{carouselData[currentIndex]["hero-sub"]}</p>
                 </div>
+            </div>
 
                 <div className="hero-info">
                     <div className="info-text">

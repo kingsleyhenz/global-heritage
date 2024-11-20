@@ -4,34 +4,44 @@
         "url": "/Great-Wall-Of-China.jpg",
         "alt": "Image of Monument 1",
         "title": "The Great Wall of China",
-        "country": "China"
+        "description": "",
+        "hero-text": "Global Heritage: Explore the World's Historic Monuments",
+        "hero-sub": "Embark on a journey through time as you explore the architectural marvels and cultural wonders that have shaped civilizations across the globe. From the timeless pyramids of Egypt to the intricate temples of Southeast Asia, each monument tells a unique story of human achievement, artistry, and resilience. Dive deeper into history and discover the significance of these remarkable landmarks that continue to inspire awe and reverence."
     },
     {
         "id": 2,
         "url": "/taj-mahal.jpg",
         "alt": "Image of Monument 2",
-        "title": "Taj-Mahal",
-        "description": "Discover the grandeur of Monument 2"
+        "title": "Taj Mahal",
+        "description": "Discover the grandeur of Monument 2",
+        "hero-text": "Cultural Wonders: Unearthing the Legacy of Global Landmarks",
+        "hero-sub": "Step into the stories of architectural brilliance and cultural evolution. Each monument reflects the dreams, challenges, and victories of humanity, offering a bridge to a rich and diverse past. Experience the vibrancy of cultures, the ingenuity of designs, and the resilience that shaped these enduring wonders. Let these monuments inspire your own journey through time."
     },
     {
         "id": 3,
         "url": "/machu-picchu.jpg",
         "alt": "Image of Monument 3",
-        "title": "Machu-Picchu",
-        "description": "Step into the history of Monument 3"
+        "title": "Machu Picchu",
+        "description": "Step into the history of Monument 3",
+        "hero-text": "Timeless Marvels: Witness the Beauty of Global Monuments",
+        "hero-sub": "Explore the enduring legacies of history’s greatest achievements. These monuments are more than just structures—they are stories carved into stone and tales woven into the earth. Each site invites us to connect with the ambitions and creativity of past civilizations, reminding us of the universal desire to leave a lasting mark."
     },
     {
         "id": 4,
         "url": "/pyramids-of-gaza.jpg",
         "alt": "Image of Monument 4",
-        "title": "Monument 4",
-        "description": "Unveil the mysteries of Monument 4" 
+        "title": "Pyramids of Giza",
+        "description": "Unveil the mysteries of Monument 4",
+        "hero-text": "Historic Treasures: Reliving the Grandeur of the Past",
+        "hero-sub": "Travel through the echoes of time and relive the grandeur of ancient achievements. These monuments embody the ingenuity and spirit of those who came before us, offering timeless lessons in perseverance and artistry. As you gaze upon these landmarks, let them spark your imagination and curiosity about the mysteries of history."
     },
     {
         "id": 6,
         "url": "/colosseum.jpg",
         "alt": "Image of Monument 5",
-        "title": "The Colosseum arena",
-        "description": "Unveil the mysteries of Monument 4" 
+        "title": "The Colosseum Arena",
+        "description": "Unveil the mysteries of Monument 5",
+        "hero-text": "Architectural Icons: Celebrating Global Landmarks",
+        "hero-sub": "Celebrate the bold and innovative designs that have stood the test of time. Each monument tells a story of human ambition, creativity, and the ability to build something that transcends generations. These landmarks are more than historical artifacts; they are living inspirations that connect us to a shared global heritage and the endless possibilities of the human spirit."
     }
 ]
