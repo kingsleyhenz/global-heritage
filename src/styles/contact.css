@@ -12,7 +12,7 @@
     height: 100%;
     background-color: white;
     /* border-radius: 15px; */
-    box-shadow: 5px 5px 20px rgb(235, 235, 235);
+    /* box-shadow: 5px 0px 20px rgb(235, 235, 235); */
 }
 .contact-details{
     width: 38%;

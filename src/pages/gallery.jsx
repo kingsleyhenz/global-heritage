@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import images from "../data/images.json";
+import Lightbox from "../components/lightbox";
 import "../styles/gallery.css";
 
 const Gallery = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   const handleRightClick = () => {
     if (currentIndex < images.length - 1) {
@@ -15,6 +18,16 @@ const Gallery = () => {
     if (currentIndex > 0) {
       setCurrentIndex((prevIndex) => prevIndex - 1);
     }
+  };
+
+  const openModal = (image) => {
+    setSelectedImage(image);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedImage(null);
   };
 
   return (
@@ -34,6 +47,7 @@ const Gallery = () => {
               style={{
                 backgroundImage: `url(${image.url})`,
               }}
+              onClick={() => openModal(image)} // Open lightbox when image is clicked
             >
               {index === currentIndex && (
                 <div className="image-title-overlay">
@@ -60,6 +74,10 @@ const Gallery = () => {
           &#8594;
         </button>
       </div>
+
+      {isModalOpen && (
+        <Lightbox image={selectedImage} onClose={closeModal} isModalOpen={isModalOpen} />
+      )}
     </div>
   );
 };
