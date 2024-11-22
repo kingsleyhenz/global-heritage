@@ -6,7 +6,9 @@
         "title": "The Great Wall of China",
         "description": "",
         "hero-text": "Global Heritage: Explore the World's Historic Monuments",
-        "hero-sub": "Embark on a journey through time as you explore the architectural marvels and cultural wonders that have shaped civilizations across the globe. From the timeless pyramids of Egypt to the intricate temples of Southeast Asia, each monument tells a unique story of human achievement, artistry, and resilience. Dive deeper into history and discover the significance of these remarkable landmarks that continue to inspire awe and reverence."
+        "hero-sub": "Embark on a journey through time as you explore the architectural marvels and cultural wonders that have shaped civilizations across the globe. From the timeless pyramids of Egypt to the intricate temples of Southeast Asia, each monument tells a unique story of human achievement, artistry, and resilience. Dive deeper into history and discover the significance of these remarkable landmarks that continue to inspire awe and reverence.",
+        "location": "China, Asia",
+        "zone": "East"
     },
     {
         "id": 2,
@@ -15,7 +17,9 @@
         "title": "Taj Mahal",
         "description": "Discover the grandeur of Monument 2",
         "hero-text": "Cultural Wonders: Unearthing the Legacy of Global Landmarks",
-        "hero-sub": "Step into the stories of architectural brilliance and cultural evolution. Each monument reflects the dreams, challenges, and victories of humanity, offering a bridge to a rich and diverse past. Experience the vibrancy of cultures, the ingenuity of designs, and the resilience that shaped these enduring wonders. Let these monuments inspire your own journey through time."
+        "hero-sub": "Step into the stories of architectural brilliance and cultural evolution. Each monument reflects the dreams, challenges, and victories of humanity, offering a bridge to a rich and diverse past. Experience the vibrancy of cultures, the ingenuity of designs, and the resilience that shaped these enduring wonders. Let these monuments inspire your own journey through time.",
+        "location": "Agra, India",
+        "zone": "North"
     },
     {
         "id": 3,
@@ -24,7 +28,10 @@
         "title": "Machu Picchu",
         "description": "Step into the history of Monument 3",
         "hero-text": "Timeless Marvels: Witness the Beauty of Global Monuments",
-        "hero-sub": "Explore the enduring legacies of history’s greatest achievements. These monuments are more than just structures—they are stories carved into stone and tales woven into the earth. Each site invites us to connect with the ambitions and creativity of past civilizations, reminding us of the universal desire to leave a lasting mark."
+        "hero-sub": "Explore the enduring legacies of history’s greatest achievements. These monuments are more than just structures—they are stories carved into stone and tales woven into the earth. Each site invites us to connect with the ambitions and creativity of past civilizations, reminding us of the universal desire to leave a lasting mark.",
+        "location": "Peru, South America",
+        "zone": "South",
+        "history": "Machu Picchu, the Lost City of the Incas, is an ancient Incan city located in the Andes Mountains of Peru. Built in the 15th century, it was abandoned in the 16th century and rediscovered in 1911. The site is renowned for its sophisticated dry-stone construction, terraced slopes, and panoramic views."
     },
     {
         "id": 4,
@@ -33,15 +40,91 @@
         "title": "Pyramids of Giza",
         "description": "Unveil the mysteries of Monument 4",
         "hero-text": "Historic Treasures: Reliving the Grandeur of the Past",
-        "hero-sub": "Travel through the echoes of time and relive the grandeur of ancient achievements. These monuments embody the ingenuity and spirit of those who came before us, offering timeless lessons in perseverance and artistry. As you gaze upon these landmarks, let them spark your imagination and curiosity about the mysteries of history."
+        "hero-sub": "Travel through the echoes of time and relive the grandeur of ancient achievements. These monuments embody the ingenuity and spirit of those who came before us, offering timeless lessons in perseverance and artistry. As you gaze upon these landmarks, let them spark your imagination and curiosity about the mysteries of history.",
+        "location": "Giza, Egypt",
+        "zone": "East",
+        "history": "The Pyramids of Giza, one of the Seven Wonders of the Ancient World, are ancient pyramid structures located in Giza, Egypt. The Great Pyramid was built for the Pharaoh Khufu around 2580–2560 BC. These monumental tombs were designed to honor and preserve the pharaohs in the afterlife."
     },
     {
-        "id": 6,
+        "id": 5,
         "url": "/colosseum.jpg",
         "alt": "Image of Monument 5",
         "title": "The Colosseum Arena",
         "description": "Unveil the mysteries of Monument 5",
         "hero-text": "Architectural Icons: Celebrating Global Landmarks",
-        "hero-sub": "Celebrate the bold and innovative designs that have stood the test of time. Each monument tells a story of human ambition, creativity, and the ability to build something that transcends generations. These landmarks are more than historical artifacts; they are living inspirations that connect us to a shared global heritage and the endless possibilities of the human spirit."
+        "hero-sub": "Celebrate the bold and innovative designs that have stood the test of time. Each monument tells a story of human ambition, creativity, and the ability to build something that transcends generations. These landmarks are more than historical artifacts; they are living inspirations that connect us to a shared global heritage and the endless possibilities of the human spirit.",
+        "location": "Rome, Italy",
+        "zone": "South",
+        "history": "The Colosseum, an ancient amphitheater in the heart of Rome, was used for gladiatorial contests and public spectacles. Completed in AD 80, it could hold up to 80,000 spectators and remains a symbol of ancient Roman architecture and engineering."
+    },
+    {
+        "id": 6,
+        "url": "/christ-the-redeemer.jpg",
+        "alt": "Image of Christ the Redeemer",
+        "title": "Christ the Redeemer",
+        "description": "Marvel at the towering Christ the Redeemer statue",
+        "location": "Rio de Janeiro, Brazil",
+        "zone": "South",
+        "history": "Standing atop Mount Corcovado, Christ the Redeemer is a 98-foot statue of Jesus Christ, completed in 1931. It symbolizes Christianity and has become an iconic cultural landmark of Brazil and a symbol of Rio de Janeiro."
+    },
+    {
+        "id": 7,
+        "url": "/eiffel-tower.jpg",
+        "alt": "Image of Eiffel Tower",
+        "title": "Eiffel Tower",
+        "description": "Explore the iconic Eiffel Tower",
+        "location": "Paris, France",
+        "zone": "West",
+        "history": "The Eiffel Tower, built in 1889 for the World's Fair, is a wrought-iron lattice tower located on the Champ de Mars in Paris. It stands as a symbol of France’s engineering prowess and was once the tallest man-made structure in the world, at 324 meters."
+    },
+    {
+        "id": 8,
+        "url": "/stonehenge.jpg",
+        "alt": "Image of Stonehenge",
+        "title": "Stonehenge",
+        "description": "Discover the mystery of Stonehenge",
+        "location": "Wiltshire, England",
+        "zone": "West",
+        "history": "Stonehenge is a prehistoric monument composed of a ring of standing stones, each around 13 feet high. Located in England, it is believed to have been constructed between 3000 BC and 2000 BC. Its purpose remains a mystery, with theories ranging from a religious site to an astronomical observatory."
+    },
+    {
+        "id": 9,
+        "url": "/christ-church.jpg",
+        "alt": "Image of Christ Church Cathedral",
+        "title": "Christ Church Cathedral",
+        "description": "Experience the historic Christ Church Cathedral",
+        "location": "Dublin, Ireland",
+        "zone": "West",
+        "history": "Christ Church Cathedral in Dublin, built in 1030, is one of Ireland's oldest and most iconic structures. It served as a cathedral for the Church of Ireland until the early 20th century and continues to be an important part of Dublin's heritage."
+    },
+    {
+        "id": 10,
+        "url": "/acropolis.jpg",
+        "alt": "Image of Acropolis",
+        "title": "The Acropolis of Athens",
+        "description": "Step back in time with the Acropolis of Athens",
+        "location": "Athens, Greece",
+        "zone": "South",
+        "history": "The Acropolis of Athens, a complex of ancient buildings, including the Parthenon, is one of Greece’s most famous archaeological sites. It served as a center for the worship of the goddess Athena, symbolizing the spirit of ancient Greek civilization."
+    },
+    {
+        "id": 11,
+        "url": "/angkor-wat.jpg",
+        "alt": "Image of Angkor Wat",
+        "title": "Angkor Wat",
+        "description": "Discover the majesty of Angkor Wat",
+        "location": "Siem Reap, Cambodia",
+        "zone": "East",
+        "history": "Angkor Wat is the largest religious monument in the world, originally dedicated to the Hindu god Vishnu and later converted to a Buddhist temple. It is renowned for its grand architecture, intricate carvings, and historical significance."
+    },
+    {
+        "id": 12,
+        "url": "/petra.jpg",
+        "alt": "Image of Petra",
+        "title": "Petra",
+        "description": "Explore the ancient city of Petra",
+        "location": "Ma'an Governorate, Jordan",
+        "zone": "East",
+        "history": "Petra is an ancient city carved into the rose-red sandstone cliffs, known for its rock-cut architecture and water management system. It was the capital of the Nabataean Kingdom and was rediscovered in 1812."
     }
 ]

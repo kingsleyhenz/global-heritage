@@ -1,0 +1,28 @@
+.ticker {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(129, 31, 31);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    z-index: 1000;
+  }
+  
+  .ticker-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll 10s linear infinite;
+    font-size: 1rem;
+    padding: 10px 0;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

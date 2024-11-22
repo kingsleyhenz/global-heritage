@@ -2,6 +2,8 @@ import { Link, Route, Router, Routes } from "react-router-dom";
 import './App.css'
 import HomePage from "./pages/home";
 import NavigationBar from "./components/navigation";
+import Footer from "./components/footer"
+import Ticker from "./components/ticker"
 import Contact from "./pages/contact";
 import FeedBack from "./pages/feedback";
 import Gallery from "./pages/gallery";
@@ -18,6 +20,8 @@ function App() {
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/monuments" element={<Monuments/>}/>
         </Routes>
+        <Footer/>
+        <Ticker/>
     </>
   )
 }

@@ -23,7 +23,7 @@ const Gallery = () => {
         <div
           className="image-slider"
           style={{
-            transform: `translateX(-${currentIndex * 370}px)`,
+            transform: `translateX(-${currentIndex * 330}px)`,
             transition: "transform 0.5s ease-in-out",
           }}
         >

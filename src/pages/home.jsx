@@ -7,16 +7,18 @@ const HomePage = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isAnimating, setIsAnimating] = useState(false);
 
+    const limitedCarouselData = carouselData.slice(0, 5);
+
     useEffect(() => {
         const interval = setInterval(() => {
             setIsAnimating(true);
             setTimeout(() => {
-                setCurrentIndex((prevIndex) => (prevIndex + 1) % carouselData.length);
+                setCurrentIndex((prevIndex) => (prevIndex + 1) % limitedCarouselData.length);
                 setIsAnimating(false);
             }, 800);
         }, 5000);
         return () => clearInterval(interval);
-    }, []);
+    }, [limitedCarouselData]);
 
     return (
         <>
@@ -24,14 +26,14 @@ const HomePage = () => {
             <div
                 className="hero-section"
                 style={{
-                    backgroundImage: `url(${carouselData[currentIndex].url})`,
+                    backgroundImage: `url(${limitedCarouselData[currentIndex].url})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
             >
                 <div className={`hero-text ${isAnimating ? "fade-out" : "fade-in"}`}>
-                    <h1>{carouselData[currentIndex]["hero-text"]}</h1>
-                    <p>{carouselData[currentIndex]["hero-sub"]}</p>
+                    <h1>{limitedCarouselData[currentIndex]["hero-text"]}</h1>
+                    <p>{limitedCarouselData[currentIndex]["hero-sub"]}</p>
                 </div>
             </div>
 
