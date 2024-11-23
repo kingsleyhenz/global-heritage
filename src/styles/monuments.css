@@ -105,3 +105,76 @@
 .sev-won:hover {
   background-color: rgb(151, 33, 33);
 }
+
+@media screen and (max-width: 1150px) {
+  .monument-content{
+    height: 90vh;
+    flex-direction: column-reverse;
+  }
+  .filter-bar{
+    width: 100%;
+    /* background-color: red; */
+    height: 10%;
+  }
+  .filters{
+    display: flex;
+    /* background-color: springgreen; */
+    height: 55%;
+    justify-content: center;
+  }
+  .filter-bar > p{
+    display: none;
+  }
+  .filters > button{
+    width: 10%;
+    height: 50%;
+  }
+  .monument-box{
+    width: 100%;
+  }
+  .sev-won{
+    position: absolute;
+    top: 105px;
+    left: 480px;
+    height: 4%;
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 987px) {
+  .monument-box{
+    grid-template-columns: 300px 300px 300px;
+    /* background-color: red; */
+  }
+  .sev-won{
+    left: 420px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .filter-bar{
+    /* background-color: springgreen; */
+  }
+  .filters > button{
+    width: 20%;
+  }
+  .sev-won{
+    left: 250px;
+    width: 25% ;
+  }
+  .monument-box{
+    grid-template-columns: 325px 325px;
+    grid-auto-rows: minmax(200px, 200px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sev-won{
+    left: 140px;
+    width: 35%;
+  }
+  .monument-box{
+    grid-template-columns: 350px;
+    justify-content: center;
+  }
+}
