@@ -8,7 +8,8 @@
         "hero-text": "Global Heritage: Explore the World's Historic Monuments",
         "hero-sub": "Embark on a journey through time as you explore the architectural marvels and cultural wonders that have shaped civilizations across the globe. From the timeless pyramids of Egypt to the intricate temples of Southeast Asia, each monument tells a unique story of human achievement, artistry, and resilience. Dive deeper into history and discover the significance of these remarkable landmarks that continue to inspire awe and reverence.",
         "location": "China, Asia",
-        "zone": "East"
+        "zone": "East",
+        "history": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against invasions and raids. Construction began as early as the 7th century BC, but the most famous sections were built by the Ming dynasty (1368 - 1644). Spanning over 13,000 miles, it is a testament to human ingenuity and endurance."
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
         "hero-text": "Cultural Wonders: Unearthing the Legacy of Global Landmarks",
         "hero-sub": "Step into the stories of architectural brilliance and cultural evolution. Each monument reflects the dreams, challenges, and victories of humanity, offering a bridge to a rich and diverse past. Experience the vibrancy of cultures, the ingenuity of designs, and the resilience that shaped these enduring wonders. Let these monuments inspire your own journey through time.",
         "location": "Agra, India",
-        "zone": "North"
+        "zone": "North",
+        "history": "The Taj Mahal, located in Agra, India, is an iconic symbol of love and one of the Seven Wonders of the World. Commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his beloved wife Mumtaz Mahal, the mausoleum is a masterpiece of Mughal architecture. It took over 20 years and 20,000 artisans to complete, featuring intricate marble inlay work and symmetrical gardens that reflect its timeless beauty."
     },
     {
         "id": 3,
