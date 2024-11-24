@@ -74,22 +74,20 @@
     background-color: white;
     width: 50%;
     position: absolute;
-    right: -750px;
+    right: -50%;
     display: flex;
     flex-direction: column;
     padding: 1%;
     z-index: 5;
-    transition: right 0.3s ease;
+    transition: right 0.8s ease;
 }
 
-.nav-sidebar.visible {
+.nav-sidebar.open {
     right: 0;
 }
-
 .nav-sidebar > i{
     font-size: 30px;
     align-self: flex-end;
-    cursor: pointer;
 }
 #side-link{
     margin-top: 50px;

@@ -46,6 +46,7 @@ const Modal = ({ monument, onClose }) => {
                                     Read More
                                 </button>
                             )}
+                            <button className="map-bt">View Map</button>
                         </div>
                         <button onClick={onClose} className="close-btn">
                             &#10005;

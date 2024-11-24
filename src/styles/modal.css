@@ -52,6 +52,15 @@
 .read-more:hover {
   background-color: #6b2a2a;
 }
+.map-bt{
+  width: 35%;
+  height: 7%;
+  background-color: brown;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .close-btn {
   background: none;
@@ -78,4 +87,70 @@
   color: white;
   font-size: 22px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 987px) {
+  .modal-content{
+    flex-direction: column;
+    justify-content: start;
+  }
+  .modal-image{
+    width: 100%;
+    height: 65%;
+  }
+  .modal-text{
+    /* background-color: red; */
+    height: 30%;
+    width: 100%;
+    padding-left: 5px;
+  }
+  .read-more{
+    height: 16%;
+    width: 20%;
+  }
+  .map-bt{
+    height: 16%;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .modal-overlay{
+    align-items: center;
+  }
+  .modal-content{
+    height: 65%;
+  }
+  .modal-text > h2{
+    font-size: 20px;
+  }
+  .modal-text > p{
+    font-size: 12px;
+  }
+  .modal-image{
+    height: 60%;
+  }
+  .modal-text{
+    /* background-color: springgreen; */
+    gap: 5%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .modal-content{
+    height: 55%;
+  }
+  .modal-text{
+    height: 40%;
+    gap: 4%;
+  }
+  .modal-text > p{
+    font-size: 11px;
+  }
+  .read-more{
+    width: 35%;
+  }
+  .map-bt{
+    width: 35%;
+  }
 }
