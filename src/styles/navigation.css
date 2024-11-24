@@ -58,7 +58,9 @@
 .visitor-count > p:hover{
     background-color: rgb(131, 33, 33);
 }
-
+.visitor-count > i{
+    display: none;
+}
 #active-link{
     background-color: brown;
     color: white;
@@ -66,4 +68,72 @@
     border: none;
     border-radius: 20px;
     transition: 0.5s;
+}
+.nav-sidebar {
+    height: 100vh;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    right: -750px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    z-index: 5;
+    transition: right 0.3s ease;
+}
+
+.nav-sidebar.visible {
+    right: 0;
+}
+
+.nav-sidebar > i{
+    font-size: 30px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+#side-link{
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid whitesmoke;
+}
+#side-vc{
+    width: 20%;
+    height: 5%;
+    background-color: brown;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+@media screen and (max-width: 987px) {
+    .nav-options{
+        display: none;
+    }
+    .visitor-count > p{
+        display: none;
+    }
+    .visitor-count > i{
+        display: block;
+        font-size: 35px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .nav-sidebar{
+        width: 80%;
+    }
+    #side-vc{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav-sidebar{
+        width: 100%;
+    }
 }
