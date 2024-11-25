@@ -108,6 +108,9 @@
 }
 
 @media screen and (max-width: 987px) {
+    .nav{
+        height: 60px;
+    }
     .nav-options{
         display: none;
     }
@@ -127,6 +130,9 @@
     }
     #side-vc{
         width: 30%;
+    }
+    .nav-title{
+        width: 15%;
     }
 }
 

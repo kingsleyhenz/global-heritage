@@ -71,9 +71,9 @@ const HomePage = () => {
                     </div>
                     <div className="overview-gallery">
                         <div className="ov-gallery-img"></div>
-                        <div className="ov-gallery-img"></div>
-                        <div className="ov-gallery-img"></div>
-                        <div className="ov-gallery-img"></div>
+                        <div className="ov-gallery-img two"></div>
+                        <div className="ov-gallery-img thr"></div>
+                        <div className="ov-gallery-img four"></div>
                     </div>
                 </div>
 

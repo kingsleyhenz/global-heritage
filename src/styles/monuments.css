@@ -119,8 +119,8 @@
   }
   .filters{
     display: flex;
-    /* background-color: springgreen; */
-    height: 55%;
+    /* background-color: red; */
+    height: 95%;
     justify-content: center;
   }
   .filter-bar > p{
@@ -128,7 +128,7 @@
   }
   .filters > button{
     width: 10%;
-    height: 50%;
+    height: 75%;
   }
   .monument-box{
     width: 100%;
@@ -177,5 +177,8 @@
   .monument-box{
     grid-template-columns: 350px;
     justify-content: center;
+  }
+  .filters > button{
+    height: 60%;
   }
 }

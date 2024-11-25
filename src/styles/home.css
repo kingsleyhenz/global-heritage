@@ -168,6 +168,15 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
+.two{
+  background-image: url(/public/acropolis.jpg);
+}
+.thr{
+  background-image: url(/public/colosseum.jpg);
+}
+.four{
+  background-image: url(/public/stonehenge.jpg);
+}
 .ov-gallery-img:hover {
   transform: scale(1.1);
 }
