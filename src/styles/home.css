@@ -434,6 +434,7 @@
     .info-text > p{
         line-height: 15px;
         font-size: 9px;
+        margin-top: 1px;
     }
     .when-card-text > h3{
         font-size: 13px;
@@ -459,7 +460,10 @@
         grid-template-rows: 100px 100px;
         /* background-color: yellowgreen; */
         height: 50%;
-        margin-top: 15px;
+        margin-top: 20px;
+    }
+    .hero-quote{
+      padding: 0px 5px;
     }
     .hero-quote > p{
       font-size: 11px;
