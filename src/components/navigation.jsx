@@ -64,13 +64,7 @@ const NavigationBar = () => {
                     <Link to="/gallery" id="side-link" onClick={closeSidebar}>Gallery</Link>
                     <Link to="/contact-us" id="side-link" onClick={closeSidebar}>Contact Us</Link>
                     <Link to="/feedback" id="side-link" onClick={closeSidebar}>Feedback</Link>
-                    <p 
-                        id="side-vc"
-                        onClick={handleVisitorCountClick} 
-                        style={{ padding: isVisitorCountExpanded ? "4% 10%" : "4%", fontSize: isVisitorCountExpanded ? "13px" : "16px" }}
-                    >
-                        {isVisitorCountExpanded ? `Visitors Count: ${visitorCount}` : "VC"}
-                    </p>
+                    <p id="side-vc" style={{width: "45%", fontSize: '15px'}}>Visitors Count: {visitorCount}</p>
                 </div>
             )}
         </div>

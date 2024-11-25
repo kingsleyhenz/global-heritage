@@ -404,6 +404,9 @@
     .learn-icon{
         height: 50px;
         width: 50px;
+        color: brown;
+        background-color: transparent;
+        font-size: 38px;
     }
 }
 
@@ -447,5 +450,13 @@
         grid-template-rows: 100px 100px;
         /* background-color: yellowgreen; */
         height: 50%;
+        margin-top: 15px;
+    }
+    .hero-quote > p{
+      font-size: 11px;
+      line-height: 18px;
+    }
+    .hero-quote > h4{
+        font-size: 15px;
     }
 }
