@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../styles/home.css"
-import CarouselSlider from "../components/carousel";
 import carouselData from "../data/images.json";
 
 const HomePage = () => {
@@ -108,7 +107,7 @@ const HomePage = () => {
                 <div className="hero-quote">
                     <i class="bi bi-quote"></i>
                     <p>When we build, let us think that we build forever. Let it not be for present delight nor for present use alone; let it be such work <br /> as our descendants will thank us for, and let us think, as we lay stone on stone, that a time is to come when those stones will be held sacred <br /> because our hands have touched them, and that men will say, as they look upon the labor and wrought substance of them, <br /> See! this our fathers did for us.</p>
-                    <h4>John Ruskin (1819 – 1900)</h4>
+                    <h4>John Ruskin (1819 - 1900)</h4>
                 </div>
             </div>
         </>

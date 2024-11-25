@@ -9,7 +9,8 @@
         "hero-sub": "Embark on a journey through time as you explore the architectural marvels and cultural wonders that have shaped civilizations across the globe. From the timeless pyramids of Egypt to the intricate temples of Southeast Asia, each monument tells a unique story of human achievement, artistry, and resilience. Dive deeper into history and discover the significance of these remarkable landmarks that continue to inspire awe and reverence.",
         "location": "China, Asia",
         "zone": "East",
-        "history": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against invasions and raids. Construction began as early as the 7th century BC, but the most famous sections were built by the Ming dynasty (1368 - 1644). Spanning over 13,000 miles, it is a testament to human ingenuity and endurance."
+        "history": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials. It was built along the northern borders of China to protect against invasions and raids. Construction began as early as the 7th century BC, but the most famous sections were built by the Ming dynasty (1368 - 1644). Spanning over 13,000 miles, it is a testament to human ingenuity and endurance.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.958774346298!2d116.56779997519068!3d40.43191175471652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f121d7687f2ccf%3A0xd040259b950522df!2sGreat%20Wall%20of%20China!5e0!3m2!1sen!2sng!4v1732509255468!5m2!1sen!2sng"
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
         "hero-sub": "Step into the stories of architectural brilliance and cultural evolution. Each monument reflects the dreams, challenges, and victories of humanity, offering a bridge to a rich and diverse past. Experience the vibrancy of cultures, the ingenuity of designs, and the resilience that shaped these enduring wonders. Let these monuments inspire your own journey through time.",
         "location": "Agra, India",
         "zone": "North",
-        "history": "The Taj Mahal, located in Agra, India, is an iconic symbol of love and one of the Seven Wonders of the World. Commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his beloved wife Mumtaz Mahal, the mausoleum is a masterpiece of Mughal architecture. It took over 20 years and 20,000 artisans to complete, featuring intricate marble inlay work and symmetrical gardens that reflect its timeless beauty."
+        "history": "The Taj Mahal, located in Agra, India, is an iconic symbol of love and one of the Seven Wonders of the World. Commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his beloved wife Mumtaz Mahal, the mausoleum is a masterpiece of Mughal architecture. It took over 20 years and 20,000 artisans to complete, featuring intricate marble inlay work and symmetrical gardens that reflect its timeless beauty.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400402283325!2d78.03956727456166!3d27.175149548764967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sng!4v1732510344850!5m2!1sen!2sng"
     },
     {
         "id": 3,
@@ -33,7 +35,8 @@
         "hero-sub": "Explore the enduring legacies of history’s greatest achievements. These monuments are more than just structures—they are stories carved into stone and tales woven into the earth. Each site invites us to connect with the ambitions and creativity of past civilizations, reminding us of the universal desire to leave a lasting mark.",
         "location": "Peru, South America",
         "zone": "South",
-        "history": "Machu Picchu, the Lost City of the Incas, is an ancient Incan city located in the Andes Mountains of Peru. Built in the 15th century, it was abandoned in the 16th century and rediscovered in 1911. The site is renowned for its sophisticated dry-stone construction, terraced slopes, and panoramic views."
+        "history": "Machu Picchu, the Lost City of the Inca, is an ancient Incan city located in the Andes Mountains of Peru. Built in the 15th century, it was abandoned in the 16th century and rediscovered in 1911. The site is renowned for its sophisticated dry-stone construction, terraced slopes, and panoramic views.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15539.949317262899!2d-72.56328654458011!3d-13.163198799999977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916d9a5f89555555%3A0x3a10370ea4a01a27!2sHistoric%20Sanctuary%20of%20Machu%20Picchu!5e0!3m2!1sen!2sng!4v1732510422664!5m2!1sen!2sng"
     },
     {
         "id": 4,
@@ -45,7 +48,8 @@
         "hero-sub": "Travel through the echoes of time and relive the grandeur of ancient achievements. These monuments embody the ingenuity and spirit of those who came before us, offering timeless lessons in perseverance and artistry. As you gaze upon these landmarks, let them spark your imagination and curiosity about the mysteries of history.",
         "location": "Giza, Egypt",
         "zone": "East",
-        "history": "The Pyramids of Giza, one of the Seven Wonders of the Ancient World, are ancient pyramid structures located in Giza, Egypt. The Great Pyramid was built for the Pharaoh Khufu around 2580–2560 BC. These monumental tombs were designed to honor and preserve the pharaohs in the afterlife."
+        "history": "The Pyramids of Giza, one of the Seven Wonders of the Ancient World, are ancient pyramid structures located in Giza, Egypt. The Great Pyramid was built for the Pharaoh Khufu around 2580–2560 BC. These monumental tombs were designed to honor and preserve the pharaohs in the afterlife.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.0657636732903!2d31.12996412467436!3d29.977539971739155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2sng!4v1732510693946!5m2!1sen!2sng"
     },
     {
         "id": 5,
@@ -57,7 +61,8 @@
         "hero-sub": "Celebrate the bold and innovative designs that have stood the test of time. Each monument tells a story of human ambition, creativity, and the ability to build something that transcends generations. These landmarks are more than historical artifacts; they are living inspirations that connect us to a shared global heritage and the endless possibilities of the human spirit.",
         "location": "Rome, Italy",
         "zone": "South",
-        "history": "The Colosseum, an ancient amphitheater in the heart of Rome, was used for gladiatorial contests and public spectacles. Completed in AD 80, it could hold up to 80,000 spectators and remains a symbol of ancient Roman architecture and engineering."
+        "history": "The Colosseum, an ancient amphitheater in the heart of Rome, was used for gladiatorial contests and public spectacles. Completed in AD 80, it could hold up to 80,000 spectators and remains a symbol of ancient Roman architecture and engineering.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.122888502261!2d12.489655975274255!3d41.89021416465692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e0!3m2!1sen!2sng!4v1732510777647!5m2!1sen!2sng"
     },
     {
         "id": 6,
@@ -67,7 +72,8 @@
         "description": "Marvel at the towering Christ the Redeemer statue",
         "location": "Rio de Janeiro, Brazil",
         "zone": "South",
-        "history": "Standing atop Mount Corcovado, Christ the Redeemer is a 98-foot statue of Jesus Christ, completed in 1931. It symbolizes Christianity and has become an iconic cultural landmark of Brazil and a symbol of Rio de Janeiro."
+        "history": "Standing atop Mount Corcovado, Christ the Redeemer is a 98-foot statue of Jesus Christ, completed in 1931. It symbolizes Christianity and has become an iconic cultural landmark of Brazil and a symbol of Rio de Janeiro.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.9542747623163!2d-43.21306212539833!3d-22.951911039483846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fd5984aa13f%3A0x9dc984d7019502de!2sChrist%20the%20Redeemer!5e0!3m2!1sen!2sng!4v1732510931846!5m2!1sen!2sng"
     },
     {
         "id": 7,
@@ -77,7 +83,8 @@
         "description": "Explore the iconic Eiffel Tower",
         "location": "Paris, France",
         "zone": "West",
-        "history": "The Eiffel Tower, built in 1889 for the World's Fair, is a wrought-iron lattice tower located on the Champ de Mars in Paris. It stands as a symbol of France’s engineering prowess and was once the tallest man-made structure in the world, at 324 meters."
+        "history": "The Eiffel Tower, built in 1889 for the World's Fair, is a wrought-iron lattice tower located on the Champ de Mars in Paris. It stands as a symbol of France’s engineering prowess and was once the tallest man-made structure in the world, at 324 meters.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.991441025273!2d2.2919063757083684!3d48.85837360070863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sng!4v1732511002227!5m2!1sen!2sng"
     },
     {
         "id": 8,
@@ -87,7 +94,8 @@
         "description": "Discover the mystery of Stonehenge",
         "location": "Wiltshire, England",
         "zone": "West",
-        "history": "Stonehenge is a prehistoric monument composed of a ring of standing stones, each around 13 feet high. Located in England, it is believed to have been constructed between 3000 BC and 2000 BC. Its purpose remains a mystery, with theories ranging from a religious site to an astronomical observatory."
+        "history": "Stonehenge is a prehistoric monument composed of a ring of standing stones, each around 13 feet high. Located in England, it is believed to have been constructed between 3000 BC and 2000 BC. Its purpose remains a mystery, with theories ranging from a religious site to an astronomical observatory.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2501.181080043245!2d-1.8287899241347627!3d51.17888533465032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873e63b850af611%3A0x979170e2bcd3d2dd!2sStonehenge!5e0!3m2!1sen!2sng!4v1732511065369!5m2!1sen!2sng"
     },
     {
         "id": 9,
@@ -97,7 +105,8 @@
         "description": "Experience the historic Christ Church Cathedral",
         "location": "Dublin, Ireland",
         "zone": "West",
-        "history": "Christ Church Cathedral in Dublin, built in 1030, is one of Ireland's oldest and most iconic structures. It served as a cathedral for the Church of Ireland until the early 20th century and continues to be an important part of Dublin's heritage."
+        "history": "Christ Church Cathedral in Dublin, built in 1030, is one of Ireland's oldest and most iconic structures. It served as a cathedral for the Church of Ireland until the early 20th century and continues to be an important part of Dublin's heritage.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.0686244317935!2d-1.2572983240952913!3d51.75006869294771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6b023ce50cf%3A0x39b83002658b1ce8!2sChrist%20Church%20Cathedral!5e0!3m2!1sen!2sng!4v1732511133807!5m2!1sen!2sng"
     },
     {
         "id": 10,
@@ -107,7 +116,9 @@
         "description": "Step back in time with the Acropolis of Athens",
         "location": "Athens, Greece",
         "zone": "South",
-        "history": "The Acropolis of Athens, a complex of ancient buildings, including the Parthenon, is one of Greece’s most famous archaeological sites. It served as a center for the worship of the goddess Athena, symbolizing the spirit of ancient Greek civilization."
+        "history": "The Acropolis of Athens, a complex of ancient buildings, including the Parthenon, is one of Greece’s most famous archaeological sites. It served as a center for the worship of the goddess Athena, symbolizing the spirit of ancient Greek civilization.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12580.956539799674!2d23.715449348753836!3d37.97154821652561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd115926d4b3%3A0xc1b7afae2bd1b7ea!2sAcropolis!5e0!3m2!1sen!2sng!4v1732511197795!5m2!1sen!2sng"
+
     },
     {
         "id": 11,
@@ -117,7 +128,8 @@
         "description": "Discover the majesty of Angkor Wat",
         "location": "Siem Reap, Cambodia",
         "zone": "East",
-        "history": "Angkor Wat is the largest religious monument in the world, originally dedicated to the Hindu god Vishnu and later converted to a Buddhist temple. It is renowned for its grand architecture, intricate carvings, and historical significance."
+        "history": "Angkor Wat is the largest religious monument in the world, originally dedicated to the Hindu god Vishnu and later converted to a Buddhist temple. It is renowned for its grand architecture, intricate carvings, and historical significance.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3880.9976164977415!2d103.86441077417888!3d13.412474505061104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3110168aea9a272d%3A0x3eaba81157b0418d!2sAngkor%20Wat!5e0!3m2!1sen!2sng!4v1732511247132!5m2!1sen!2sng"
     },
     {
         "id": 12,
@@ -127,6 +139,7 @@
         "description": "Explore the ancient city of Petra",
         "location": "Ma'an Governorate, Jordan",
         "zone": "East",
-        "history": "Petra is an ancient city carved into the rose-red sandstone cliffs, known for its rock-cut architecture and water management system. It was the capital of the Nabataean Kingdom and was rediscovered in 1812."
+        "history": "Petra is an ancient city carved into the rose-red sandstone cliffs, known for its rock-cut architecture and water management system. It was the capital of the Nabataean Kingdom and was rediscovered in 1812.",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27552.522868762353!2d35.446246220022026!3d30.320658716199315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15016930021ab6b1%3A0xe43a697bc3a3e0b9!2sWadi%20Musa%2C%20Jordan!5e0!3m2!1sen!2sng!4v1732511312966!5m2!1sen!2sng"
     }
 ]
